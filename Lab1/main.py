@@ -29,7 +29,6 @@ def graph_short_path_find(cpoint,tpoint,rebrs,length=0,dellst=[],lens=[],path=''
     path+=str(cpoint)+'-'
     if cpoint==tpoint:
         lens.append(length)
-        #print('Найден путь ',path[:-1],':',length)
         return None
     for num in dellst:
         rebrs.pop(num)
