@@ -22,7 +22,7 @@ else:
     is_bin=False
     start=0
     fin=3
-    filename= pathlib.Path('Lab1\input.txt') 
+    filename= pathlib.Path('input.txt') 
 def graph_short_path_find(cpoint,tpoint,rebrs,length=0,dellst=[],lens=[],path=''):
     if length==0:
         lens=[]
